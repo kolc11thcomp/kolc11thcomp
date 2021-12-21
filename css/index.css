@@ -500,19 +500,19 @@ p.warning{
         font-size: 1.7rem;
     }
     #mascot p{
+        padding-left: 0;
+    }
+    #name{
         font-size: 1.2rem;
-        padding-left: 3%;
     }
     #mascot img{
-        width: 50%;
+        width: 60%;
     }
     #mascot{
-       
         display: block;
-        
     }
     #mascot_explain_box{
-        width: 90%;
+        width: 100%;
         padding-top: 10%;
     }
     #mascot_explain{
