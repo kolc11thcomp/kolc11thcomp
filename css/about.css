@@ -152,6 +152,9 @@ h5{
     font-size: 25px;
     margin-bottom: 3%;
 }
+article{
+    margin: 0 60px 0 60px;
+}
 /*----------------ページメイン↑----------------*/
 
 /*----------------ページサブ（更新情報）↓----------------*/
@@ -458,5 +461,8 @@ footer{
         margin-left: 11%;
         margin-right: 10%;
         font-size: 0.8rem;
+    }
+    article{
+        margin: 0 20px 0 20px;
     }
 }
