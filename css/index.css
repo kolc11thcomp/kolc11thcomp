@@ -164,16 +164,28 @@ dl{
     text-align: center;
     font-size: 2rem;
     box-sizing: border-box;
-    width: 100%;
-    padding-top: 3%;
-    padding-bottom: 3%;
+    padding-top: 7%;
+    padding-bottom: 7%;
     margin-bottom: 8%;
-    
-    
-    /*background-color: white;*/
+    display: flex;
+    padding-right: 7%;
+    padding-left: 10%;
 }
 #mascot p{
     font-family: fantasy;
+}
+#mascot img{
+    width: 35%
+}
+#mascot_explain_box{
+    width: 60%;
+    padding-top: 10%;
+}
+#mascot_explain{
+    margin-top: 6%;
+    font-size: 1.3rem;
+    text-align: left;
+    padding-left: 10%;
 }
 .effect-fade {
     opacity : 0;
@@ -488,27 +500,23 @@ p.warning{
         font-size: 1.7rem;
     }
     #mascot p{
-        font-size: 1.0rem;
+        font-size: 1.2rem;
+        padding-left: 3%;
     }
     #mascot img{
-        width: 30%;
+        width: 50%;
     }
-    /*.menu-btn {
+    #mascot{
        
-        top: 5px;
-        right: 10px;
+        display: block;
         
-        height: 30px;
-        width: 30px;
     }
-    .menu-btn span,
-    .menu-btn span:before,
-    .menu-btn span:after {
-        
-        height: 2px;
-        width: 25px;
-        border-radius: 3px;
-        
-    }*/
-
+    #mascot_explain_box{
+        width: 90%;
+        padding-top: 10%;
+    }
+    #mascot_explain{
+        margin-top: 6%;
+        font-size: 0.9rem;
+    }
 }
