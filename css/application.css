@@ -230,6 +230,11 @@ article{
     margin-left: 5%;
     font-weight: 500;
 }
+.del {
+    text-decoration-line: line-through;
+    text-decoration-style:solid;
+    text-decoration-color: red;
+  }
 #application_system{
     margin-top: 8%;
 }
