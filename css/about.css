@@ -465,4 +465,8 @@ footer{
     article{
         margin: 0 20px 0 20px;
     }
+    .menu-content {
+        height: 50%;
+        top: -50%;
+    }
 }
