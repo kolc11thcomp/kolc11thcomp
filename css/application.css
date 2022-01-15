@@ -270,6 +270,7 @@ h4:before {
 	background-color:#FFFFFF;
 	border:solid 5px #CCCCCC;
 	border-radius:10px;
+    height: 700px;
     overflow: scroll;
 }
 
