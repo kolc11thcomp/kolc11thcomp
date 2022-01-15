@@ -519,4 +519,8 @@ p.warning{
         margin-top: 6%;
         font-size: 0.9rem;
     }
+    .menu-content {
+        height: 50%;
+        top: -50%;
+    }
 }
