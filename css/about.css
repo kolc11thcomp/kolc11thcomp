@@ -189,6 +189,7 @@ h4:before {
 	background-color:#FFFFFF;
 	border:solid 5px #CCCCCC;
 	border-radius:10px;
+    height: 700px;
     /*width: 30%;*/
     overflow: scroll;
     /*float:right;*/
