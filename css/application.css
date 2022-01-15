@@ -549,4 +549,8 @@ footer{
     #flex-box{
         display: block;
     }
+    .menu-content {
+        height: 50%;
+        top: -50%;
+    }
 }
