@@ -464,4 +464,8 @@ footer{
     .dl-button-wrap {
         font-size: 0.9rem;
     }
+    .menu-content {
+        height: 50%;
+        top: -50%;
+    }
 }
