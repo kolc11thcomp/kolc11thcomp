@@ -219,6 +219,11 @@ article{
 }
 #intro_flexbox a{
     position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    
 }
 #intro_flexbox a::before{
     content: "";
@@ -236,15 +241,20 @@ article{
 #logo_flexbox{
     display: flex;
     margin-top: 5%;
-    gap: 3%;
+    gap: 15%;
+    width: 40%;
 }
 #facebook_logo{
-    width: 80%;
+    width: 100%;
 }
 #twitter_logo{
-    width: 10%;
-    margin-top: 1%;
+    width: 100%;
+    margin-top: 5px;
 }
+#instagram_logo{
+    width: 100%;
+}
+
 /*--------------------------ページメイン↑--------------------------------*/
 
 /*--------------------------ページサブ（更新情報）↓--------------------------------*/
