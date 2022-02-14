@@ -122,7 +122,7 @@ h2{
     position: relative;
     padding: 1rem 2rem;
     border-bottom: 6px solid #CCCC00;
-    margin: auto 40px 50px 40px;
+    margin: auto 20px 50px 20px;
     text-align: center;
     font-size: 30px;
 }
@@ -512,7 +512,7 @@ footer{
     }
     /*-----------共通-------------*/
     h2{
-        font-size: 1.0rem;
+        font-size: 1.1rem;
     }
     p{
         font-size: 0.8rem;
