@@ -204,6 +204,10 @@ h5{
 #pageBody ul li{
     margin-bottom: 25px;
 }
+#pageBody ul{
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
 article{
     margin: 0 60px 0 60px;
 }
