@@ -145,17 +145,34 @@ h2:before {
     margin-bottom: 2%;
     margin-top: 2%;
 }
+.wrap {
+    display:flex;
+    flex-flow: column;
+    /*border:2px #ccc solid;
+    height:300px;
+    margin:0 0 1em;*/
+  }
 .dl-button-wrap {
 	background: #339966;
 	border-radius: 1em;
 	padding: 0.25em 1em;
     margin-left: 10%;
-    /*margin-top: 10%;*/
+    margin-top: 4%;
+    width: 35%;
     font-size: 1.3rem;
 }
 .dl-button-wrap > a {
 	color: #ffffff;
 	text-decoration: none;
+    display: block;
+}
+a#button::after{
+    transition: none;
+    transform: none;
+    background: none;
+}
+a#button:hover::after {
+    transform: none;
 }
 p#pageBody {
     margin-bottom: 10%;
